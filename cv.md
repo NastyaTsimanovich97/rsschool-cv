@@ -8,3 +8,8 @@ Main goal for me is to start a career junior Front-end developer and develop my 
 Experience in developing web-application on JavaScript/HTML/CSS more than seven months. Also, I have programming experience on C++, SQL, Pl/SQL and experience in a graphical editor Photoshop. <br/>
 I am a goal-oriented and hardworking person with good organizational skills. <br/>
 I have good analytical skils. I work well in a team.
+## Skills
+* JavaScript, CSS, HTML, SQL, Pl/SQL;
+* Git;
+* DOM;
+* Chrome developer tools, npm, ESLint.<br/>
