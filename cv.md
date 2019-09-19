@@ -13,3 +13,8 @@ I have good analytical skils. I work well in a team.
 * Git;
 * DOM;
 * Chrome developer tools, npm, ESLint.<br/>
+## Code examples
+[Lambda-Restaurant](https://nastyatsimanovich97.github.io/)
+## Experience
+May 2018-June 2018 "Masmi" data-analyst.<br/>
+April 2019-June 2019 "AGAT" engineer-programmer.
