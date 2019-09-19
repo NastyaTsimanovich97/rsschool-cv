@@ -13,8 +13,15 @@ I have good analytical skils. I work well in a team.
 * Git;
 * DOM;
 * Chrome developer tools, npm, ESLint.<br/>
+
 ## Code examples
 [Lambda-Restaurant](https://nastyatsimanovich97.github.io/)
 ## Experience
 May 2018-June 2018 "Masmi" data-analyst.<br/>
 April 2019-June 2019 "AGAT" engineer-programmer.
+## Education
+2015-2019 Belarusian State University of Informatics and Radioelectronics, faculty of Information technologies and control;<br/> 
+February 2019-May 2019 RSSchool;<br/>
+2019-present Belarusian State University of Informatics and Radioelectronics, masters degree, speciality - system analys.
+## English
+My level of English is Intermediate. Now I am taking an English course at a university where I am improving my speaking and grammar skills.
