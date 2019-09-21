@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1.2em;
+}
+
+
+body{
+    width: 1024px;
+    margin: 0 auto;
+    background: url(assets/pattern@1.png);
+    background-size: cover;
+    background-position-x: 1500px;
+}
+
+
+header{
+    display: grid;
+    grid-template-areas: "h1 nav" "photo .";
+    align-items: center;
+    justify-items: center;
+}
+
+
+nav{
+    grid-area: nav;
+}
+h1{
+    grid-area: h1;
+    font-size: 2.1em;
+    font-family: 'Source Serif Pro',"Georgia", serif;
+}
+.photo{
+    grid-area: photo;
+}
+.menu li{
+    margin: 8px;
+    display: inline;
+    list-style: none;
+    font-size: 1em;
+    font-family: 'Source Serif Pro',"Georgia", serif;
+}
+.menu a{
+    color: #000000 ;
+}
+
+
+.line{
+    margin: 45px 5px;
+    border: none;
+    background-color: #9b9b9b; 
+    height: 1px; 
+}
+
+
+section{
+    margin-left: 25px;
+    font-family: 'Source Serif Pro',"Georgia", serif;
+}
+section p{
+    font-size: 1.1em;
+    line-height: 25px;
+}
+h2{
+    margin-bottom: 10px;
+}
+.section-contact a{
+    font-weight: 600;
+    color: rgb(128, 139, 75);
+}
+.section-contact a:hover{
+    font-size: 1.2em;
+}
+.skills li{
+    margin-left: 20px;
+    font-size: 1.1em;
+    line-height: 25px;
+    list-style-type: circle;
+}
+.project-lamba{
+    font-weight: 600;
+    color: #CC9900;
+}
+section p:last-child{
+    margin-left: 5px;
+}
+
+
+footer{
+    height: 150px;
+}
+footer a,
+.city{
+    color: rgb(128, 139, 75);
+}
+.thanks{
+    position: absolute;
+    margin-top: 15px;
+    font-style: italic;
+}
+aside{
+    margin-left: 25px;
+    font-family: 'Source Serif Pro',"Georgia", serif;
+}
