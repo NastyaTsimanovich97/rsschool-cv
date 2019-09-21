@@ -57,15 +57,30 @@
         </section>
         <div class="line"></div>
         <section>
-            <h2 class="head-code" id="code">Code examples</h2>
+            <h2 class="head-code" id="code">Code example</h2>
             <p>
-                <a class="project-lamba" href="https://nastyatsimanovich97.github.io/" target="_blank">Lambda-Restaurant</a>
+                <pre>let transform=document.getElementById('button-transform');
+                        transform.addEventListener('click',function(){
+                            document.onclick=function(e){
+                                let figure=e.target;
+                                if (figure.id.search(/figure/i)==0){
+                                    let computedStyle=getComputedStyle(document.getElementById(figure.id));
+                                    if(computedStyle.borderRadius=='100%' || computedStyle.borderRadius=='100px'){
+                                        document.getElementById(figure.id).style.borderRadius='0px';
+                                    } else{
+                                        document.getElementById(figure.id).style.borderRadius='100px';
+                                    }
+                                }
+                            };
+                        });
+                    </pre>
             </p>
         </section>
         <div class="line"></div>
         <section>
             <h2 class="head-experience" id="experience">Experience</h2>
             <p>
+                My progect <a class="project-lamba" href="https://nastyatsimanovich97.github.io/" target="_blank">Lambda-Restaurant</a><br>
                 <em>May 2018-June 2018 </em> "Masmi" data-analyst.<br>
                 <em>April 2019-June 2019 </em> "AGAT" engineer-programmer.
             </p>
