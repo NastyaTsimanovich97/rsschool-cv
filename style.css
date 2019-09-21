@@ -2,7 +2,39 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 body{
     width: 1024px;
     margin: 0 auto;
+    background: url(assets/pattern@1.png);
+}
+header{
+    display: grid;
+    grid-template-areas: "h1 nav" "photo .";
+    align-items: center;
+    justify-items: center;
+}
+nav{
+    grid-area: nav;
+}
+h1{
+    grid-area: h1;
+    font-size: 2.1em;
+    font-family: 'Source Serif Pro',"Georgia", serif;
+}
+.photo{
+    grid-area: photo;
+}
+
+.menu li{
+    margin: 8px;
+    display: inline;
+    list-style: none;
+    font-size: 1em;
+    font-family: 'Source Serif Pro',"Georgia", serif;
+}
+.menu a{
+    color: #000000 ;
 }
