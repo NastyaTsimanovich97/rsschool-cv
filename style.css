@@ -5,6 +5,11 @@
 a{
     text-decoration: none;
 }
+a:hover{
+    font-size: 1.2em;
+}
+
+
 body{
     width: 1024px;
     margin: 0 auto;
@@ -12,12 +17,16 @@ body{
     background-size: cover;
     background-position-x: 1500px;
 }
+
+
 header{
     display: grid;
     grid-template-areas: "h1 nav" "photo .";
     align-items: center;
     justify-items: center;
 }
+
+
 nav{
     grid-area: nav;
 }
@@ -29,7 +38,6 @@ h1{
 .photo{
     grid-area: photo;
 }
-
 .menu li{
     margin: 8px;
     display: inline;
@@ -41,12 +49,14 @@ h1{
     color: #000000 ;
 }
 
+
 .line{
     margin: 45px 5px;
     border: none;
     background-color: #9b9b9b; 
     height: 1px; 
 }
+
 
 section{
     margin-left: 25px;
@@ -56,23 +66,22 @@ section p{
     font-size: 1.1em;
     line-height: 25px;
 }
-
 h2{
     margin-bottom: 10px;
 }
-
 .section-contact a{
     font-weight: 600;
     color: rgb(128, 139, 75);
 }
-
+.section-contact a:hover{
+    font-size: 1.2em;
+}
 .skills li{
     margin-left: 20px;
     font-size: 1.1em;
     line-height: 25px;
     list-style-type: circle;
 }
-
 .project-lamba{
     font-weight: 600;
     color: #CC9900;
@@ -81,10 +90,10 @@ section p:last-child{
     margin-left: 5px;
 }
 
+
 footer{
     height: 150px;
 }
-
 footer a,
 .city{
     color: rgb(128, 139, 75);
