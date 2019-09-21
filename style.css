@@ -80,3 +80,21 @@ h2{
 section p:last-child{
     margin-left: 5px;
 }
+
+footer{
+    height: 150px;
+}
+
+footer a,
+.city{
+    color: rgb(128, 139, 75);
+}
+.thanks{
+    position: absolute;
+    margin-top: 15px;
+    font-style: italic;
+}
+aside{
+    margin-left: 25px;
+    font-family: 'Source Serif Pro',"Georgia", serif;
+}
