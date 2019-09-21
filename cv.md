@@ -16,6 +16,22 @@ I have good analytical skils. I work well in a team.
 
 ## Code examples
 [Lambda-Restaurant](https://nastyatsimanovich97.github.io/)
+```javascript
+let transform=document.getElementById('button-transform');
+                        transform.addEventListener('click',function(){
+                            document.onclick=function(e){
+                                let figure=e.target;
+                                if (figure.id.search(/figure/i)==0){
+                                    let computedStyle=getComputedStyle(document.getElementById(figure.id));
+                                    if(computedStyle.borderRadius=='100%' || computedStyle.borderRadius=='100px'){
+                                        document.getElementById(figure.id).style.borderRadius='0px';
+                                    } else{
+                                        document.getElementById(figure.id).style.borderRadius='100px';
+                                    }
+                                }
+                            };
+                        });
+```
 ## Experience
 May 2018-June 2018 "Masmi" data-analyst.<br/>
 April 2019-June 2019 "AGAT" engineer-programmer.
