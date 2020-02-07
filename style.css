@@ -7,7 +7,8 @@ a{
     font-size: 1.1em;
     line-height: 25px;
 }
-a:hover{
+a:hover,
+.my-project:hover{
     font-size: 1.2em;
 }
 
@@ -117,4 +118,12 @@ aside{
     font-size: 20px;
     font-weight: 600;
     color: rgb(128, 139, 75);
+}
+.presentation{
+    font-size: 20px;
+    font-weight: 600;
+}
+.presentation-list{
+    margin-left: 10px;
+    list-style: none;
 }
